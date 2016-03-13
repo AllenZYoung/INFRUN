@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5721DE3BA91CA1CBC47F94E5E679285C4CB83A19",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5721DE3BA91CA1CBC47F94E5E679285C4CB83A19" : 0,
+    "DFDFCFF7F91303D018363A961C4B9266A4998E04" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "43240FF8-478B-4D87-9224-8894A8A98F55",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5721DE3BA91CA1CBC47F94E5E679285C4CB83A19" : "INFRUN\/",
+    "DFDFCFF7F91303D018363A961C4B9266A4998E04" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "INFRUN",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "INFRUN.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AllenZYoung\/INFRUN.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5721DE3BA91CA1CBC47F94E5E679285C4CB83A19"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AllenZYoung\/Test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DFDFCFF7F91303D018363A961C4B9266A4998E04"
+    }
+  ]
+}
