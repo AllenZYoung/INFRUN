@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AE2BB601D0A95AA005B9568 /* settingData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AE2BB5F1D0A95AA005B9568 /* settingData.plist */; };
+		0AE2BB621D0A962A005B9568 /* userInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2BB611D0A962A005B9568 /* userInfoViewController.swift */; };
+		0AE2BB641D0A9636005B9568 /* sportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2BB631D0A9636005B9568 /* sportViewController.swift */; };
+		0AE2BB661D0A9657005B9568 /* sportRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2BB651D0A9657005B9568 /* sportRecordViewController.swift */; };
+		0AE2BB681D0A9677005B9568 /* firstLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2BB671D0A9677005B9568 /* firstLaunchViewController.swift */; };
 		9F56A3041C95556000516778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F56A3031C95556000516778 /* AppDelegate.swift */; };
 		9F56A3061C95556000516778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F56A3051C95556000516778 /* ViewController.swift */; };
 		9F56A3091C95556000516778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F56A3071C95556000516778 /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AE2BB5F1D0A95AA005B9568 /* settingData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settingData.plist; sourceTree = "<group>"; };
+		0AE2BB611D0A962A005B9568 /* userInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userInfoViewController.swift; sourceTree = "<group>"; };
+		0AE2BB631D0A9636005B9568 /* sportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sportViewController.swift; sourceTree = "<group>"; };
+		0AE2BB651D0A9657005B9568 /* sportRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sportRecordViewController.swift; sourceTree = "<group>"; };
+		0AE2BB671D0A9677005B9568 /* firstLaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstLaunchViewController.swift; sourceTree = "<group>"; };
 		9F56A3001C95556000516778 /* INFRUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INFRUN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F56A3031C95556000516778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F56A3051C95556000516778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +115,11 @@
 				9F56A30D1C95556000516778 /* Assets.xcassets */,
 				9F56A30F1C95556000516778 /* LaunchScreen.storyboard */,
 				9F56A3121C95556000516778 /* Info.plist */,
+				0AE2BB5F1D0A95AA005B9568 /* settingData.plist */,
+				0AE2BB611D0A962A005B9568 /* userInfoViewController.swift */,
+				0AE2BB631D0A9636005B9568 /* sportViewController.swift */,
+				0AE2BB651D0A9657005B9568 /* sportRecordViewController.swift */,
+				0AE2BB671D0A9677005B9568 /* firstLaunchViewController.swift */,
 				9F56A30A1C95556000516778 /* INFRUN.xcdatamodeld */,
 			);
 			path = INFRUN;
@@ -235,6 +250,7 @@
 				9F56A3111C95556000516778 /* LaunchScreen.storyboard in Resources */,
 				9F56A30E1C95556000516778 /* Assets.xcassets in Resources */,
 				9F56A3091C95556000516778 /* Main.storyboard in Resources */,
+				0AE2BB601D0A95AA005B9568 /* settingData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE2BB661D0A9657005B9568 /* sportRecordViewController.swift in Sources */,
+				0AE2BB681D0A9677005B9568 /* firstLaunchViewController.swift in Sources */,
 				9F56A3061C95556000516778 /* ViewController.swift in Sources */,
+				0AE2BB621D0A962A005B9568 /* userInfoViewController.swift in Sources */,
 				9F56A3041C95556000516778 /* AppDelegate.swift in Sources */,
+				0AE2BB641D0A9636005B9568 /* sportViewController.swift in Sources */,
 				9F56A30C1C95556000516778 /* INFRUN.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +508,7 @@
 				9F56A32D1C95556000516778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F56A32E1C95556000516778 /* Build configuration list for PBXNativeTarget "INFRUNTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +517,7 @@
 				9F56A3301C95556000516778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F56A3311C95556000516778 /* Build configuration list for PBXNativeTarget "INFRUNUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +526,7 @@
 				9F56A3331C95556000516778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
