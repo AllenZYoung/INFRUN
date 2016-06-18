@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//UIkit inherited
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -22,4 +22,3 @@ class ViewController: UIViewController {
 
 
 }
-
